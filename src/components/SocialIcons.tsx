@@ -60,32 +60,35 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/rajeshchityal" target="_blank">
+          <a href="https://github.com/virajthukrul0404-stack" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/rajeshchityal" target="_blank">
+          <a href="https://www.linkedin.com/in/viraj-thukrul-7073113aa" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/rajeshchityal" target="_blank">
+          <a href="https://x.com/viraj_thuk64094" target="_blank">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/rajeshchityal" target="_blank">
+          <a href="https://www.instagram.com/thk.viraj" target="_blank">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="#">
+      <button 
+        className="resume-button" 
+        onClick={() => window.open("/viraj_resume.pdf", "_blank")}
+      >
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
-      </a>
+      </button>
     </div>
   );
 };

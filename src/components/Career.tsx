@@ -15,43 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
-              </div>
-              <h3>2020</h3>
-            </div>
-            <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
-              </div>
-              <h3>2021</h3>
-            </div>
-            <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>B.Tech Engineering</h4>
+                <h5>Smt. Indira Gandhi College, Mumbai University</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Currently a first-year engineering student learning new skills and doing B.Tech. I maintain an 8.5 CGPA and have a strong passion for aesthetic UI/UX and vibe coding.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Hackathon Participant</h4>
+                <h5>Various Competitions</h5>
+              </div>
+              <h3>2024</h3>
+            </div>
+            <p>
+              Participated in two hackathons. Although I haven't won any yet, the learning experience has been invaluable and there are more to come in the future.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Coder & Editor</h4>
+                <h5>Self-Taught</h5>
+              </div>
+              <h3>2023</h3>
+            </div>
+            <p>
+              Developed strong knowledge in Python, JavaScript, HTML, CSS, React, and Tailwind CSS. Built various games and web applications from scratch.
             </p>
           </div>
         </div>
