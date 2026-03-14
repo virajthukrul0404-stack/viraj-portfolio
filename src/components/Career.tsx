@@ -21,7 +21,7 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Currently a first-year engineering student learning new skills and doing B.Tech. I maintain an 8.5 CGPA and have a strong passion for aesthetic UI/UX and vibe coding.
+              Currently a first-year engineering student learning new skills and doing B.Tech. I have a strong passion for aesthetic UI/UX and vibe coding.
             </p>
           </div>
           <div className="career-info-box">
