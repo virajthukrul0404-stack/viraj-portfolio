@@ -107,6 +107,22 @@
   font-size: 15px;
 }
 
+.carousel-live-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: var(--accentColor);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.carousel-live-link:hover {
+  transform: translateX(4px);
+  opacity: 0.8;
+}
+
 .carousel-image-wrapper {
   flex: 1;
   display: flex;

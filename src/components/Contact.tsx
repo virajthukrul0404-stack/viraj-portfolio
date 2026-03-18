@@ -1,10 +1,64 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { useState } from "react";
 import "./styles/Contact.css";
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email && message) {
+      window.location.href = `mailto:virajthukrul0404@gmail.com?subject=Let's work together&body=${encodeURIComponent(
+        `Email: ${email}\n\nMessage:\n${message}`
+      )}`;
+      setEmail("");
+      setMessage("");
+      setSubmitted(true);
+      setTimeout(() => setSubmitted(false), 3000);
+    }
+  };
+
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
+        {/* Let's Work Together Section */}
+        <div className="lets-work-section">
+          <div className="lets-work-content">
+            <h2 className="lets-work-title">Let's Work Together</h2>
+            <p className="lets-work-subtitle">
+              Got an idea or want to collaborate? Reach out and let's create something amazing together.
+            </p>
+            <form className="work-form" onSubmit={handleSubmit}>
+              <div className="form-group">
+                <input
+                  type="email"
+                  placeholder="Your email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  className="form-input"
+                />
+              </div>
+              <div className="form-group">
+                <textarea
+                  placeholder="Tell me about your project..."
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                  className="form-textarea"
+                  rows={4}
+                ></textarea>
+              </div>
+              <button type="submit" className="form-submit">
+                Send Message
+              </button>
+              {submitted && <p className="form-success">Message sent! Check your email.</p>}
+            </form>
+          </div>
+        </div>
+
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">

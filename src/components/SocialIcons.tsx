@@ -82,7 +82,7 @@ const SocialIcons = () => {
       </div>
       <button 
         className="resume-button" 
-        onClick={() => window.open("/viraj_resume.png", "_blank")}
+        onClick={() => window.open("/virajdev-resume.pdf", "_blank")}
       >
         <HoverLinks text="RESUME" />
         <span>

@@ -30,7 +30,7 @@ const Career = () => {
                 <h4>Hackathon Participant</h4>
                 <h5>Various Competitions</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2025</h3>
             </div>
             <p>
               Participated in two hackathons. Although I haven't won any yet, the learning experience has been invaluable and there are more to come in the future.
@@ -42,7 +42,7 @@ const Career = () => {
                 <h4>Coder & Editor</h4>
                 <h5>Self-Taught</h5>
               </div>
-              <h3>2023</h3>
+              <h3>2024</h3>
             </div>
             <p>
               Developed strong knowledge in Python, JavaScript, HTML, CSS, React, and Tailwind CSS. Built various games and web applications from scratch.

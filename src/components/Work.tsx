@@ -5,16 +5,17 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "FlowForge",
-    category: "Productivity & Social Platform",
-    tools: "Flocus-style Timer, React, Node.js",
-    image: "/images/flowforge.png",
-  },
-  {
     title: "Clario",
     category: "EdTech Platform Contributor",
     tools: "React, Next.js, Frontend UI",
     image: "/images/clario.png",
+    liveLink: "https://clario-edtech.vercel.app/",
+  },
+  {
+    title: "FlowForge",
+    category: "Productivity & Social Platform",
+    tools: "Flocus-style Timer, React, Node.js",
+    image: "/images/flowforge.png",
   },
   {
     title: "Python Games",
@@ -100,6 +101,16 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.liveLink && (
+                          <a
+                            href={project.liveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="carousel-live-link"
+                          >
+                            Visit Live →
+                          </a>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
